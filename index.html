@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Caixa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body> 
+
+    
+    <div class="divpai">
+        <div class="cabecalho" >
+            <h2>Sistema de Caixa</h2>
+        </div>
+        
+        <form id="form" class="form" action="script.php" method="post">
+            <div class="form-control " >
+                <label for="username">Nome de Cliente:</label>
+                <input placeholder="Digite seu nome..."  type="text" id="nome" name="nome" >              
+            </div>   
+            <div class="form-control " >
+                <label for="sobrenome">Nome do Primeiro Produto:</label>
+                <input placeholder="Digite o nome do Primeiro Produto:" type="text" id="produto1" name="produto1"> 
+                
+            </div>
+            
+                       
+            
+            <div class="form-control " >
+                <label for="endereco">Valor do Primeiro Produto:</label>
+                <input placeholder="Digite o Valor do Primeiro Produto:" type="text" id="vlProduto" name="vlProduto1" > 
+              
+            </div>
+            
+            
+            <div class="form-control " >
+                <label for="cidade">Nome do Segundo Produto:</label>
+                <input placeholder="Digite o Valor do Segundo Produto:" type="text" id="produto2" name="produto2"> 
+              
+            </div>
+
+            <div class="form-control " >
+                <label for="cidade">Valor do Segundo Produto:</label>
+                <input placeholder="Digite o Valor do Segundo Produto:" type="text" id="vlProduto2" name="vlProduto2" > 
+              
+            </div>
+            
+            
+            <div class="form-control " >
+                <label for="email">Valor pago Pelo Cliente:</label>
+                <input placeholder="Digite o Valor pago Pelo Cliente..." type="text" id="vlPago" name="vlPago" >
+              
+            </div>
+            
+            
+            
+            <button type="submit"> Enviar</button>
+        </form>
+    </div>
+    
+    
+</body>
+</html>
